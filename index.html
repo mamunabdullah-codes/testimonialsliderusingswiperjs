@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Swiper CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <!-- Bootstrap CDN  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- Favicon  -->
+    <link
+      rel="shortcut icon"
+      href="images/swiper-logo.svg"
+      type="image/x-icon"
+    />
+    <!-- Title  -->
+    <title>Testimonial Slider using SWIPER JS</title>
+    <!-- Custom Styles  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Create a Testimonial Slider using SWIPER JS
+    Link: https://smartslider3.com/testimonial-carousel/ -->
+  </head>
+  <body>
+    <section class="testimonial container mx-auto">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide d-flex flex-column">
+            <div>
+              <img src="images/airbnb.png" alt="airbnb" />
+            </div>
+            <p class="text-secondary lh-lg">
+              I’ve been searching for a good free slider plugin for a long time.
+              <strong>This is definitely the one!</strong> For a free plugin it
+              does a lot of things!
+            </p>
+            <div class="d-flex flex-column align-items-center gap-2">
+              <div class="rounded-image">
+                <img src="images/zack.jpeg" alt="zack" />
+              </div>
+              <div>
+                <h6 class="lh-1 fw-semibold">ZACK SALOMON</h6>
+                <p class="lh-1 fs-6 text-secondary">Head Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide d-flex flex-column">
+            <div>
+              <img src="images/dropbox.png" alt="dropbox" />
+            </div>
+            <p class="text-secondary lh-lg">
+              Smart Slider 3 is <strong>more than powerful</strong>. It is
+              amazing.Thanks to developer for putting so much effort to create
+              this well-thought plugin.
+            </p>
+            <div class="d-flex flex-column align-items-center gap-2">
+              <div class="rounded-image">
+                <img src="images/diana.jpg" alt="diana" />
+              </div>
+              <div>
+                <h6 class="lh-1 fw-semibold">DIANA MILLER</h6>
+                <p class="lh-1 fs-6 text-secondary">Marketing Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide d-flex flex-column">
+            <div>
+              <img src="images/google.png" alt="google" />
+            </div>
+            <p class="text-secondary lh-lg">
+              The backend of the plugin is
+              <strong>beautifully designed</strong> and fairly intuitive –
+              although there are so many options, it’s almost daunting.
+            </p>
+            <div class="d-flex flex-column align-items-center gap-2">
+              <div class="rounded-image">
+                <img src="images/ryan.jpg" alt="ryan" />
+              </div>
+              <div>
+                <h6 class="lh-1 fw-semibold">RYAN VIDAL</h6>
+                <p class="lh-1 fs-6 text-secondary">Interactive Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide d-flex flex-column">
+            <div>
+              <img src="images/shopify.png" alt="shopify" />
+            </div>
+            <p class="text-secondary lh-lg">
+              If there was a 10 start I’d give it. When I found Smart Slider 3
+              instantly knew that this was the <strong>premium slider</strong> I
+              needed for all my projects.
+            </p>
+            <div class="d-flex flex-column align-items-center gap-2">
+              <div class="rounded-image">
+                <img src="images/jane.jpg" alt="Jane" />
+              </div>
+              <div>
+                <h6 class="lh-1 fw-semibold">JANE LINN</h6>
+                <p class="lh-1 fs-6 text-secondary">Community Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide d-flex flex-column">
+            <div>
+              <img src="images/evernote.png" alt="evernote" />
+            </div>
+            <p class="text-secondary lh-lg">
+              Cannot recommend this plugin highly enough.
+              <strong>Get the Pro version</strong>. Use the Slider and all your
+              website dreams will come true.
+            </p>
+            <div class="d-flex flex-column align-items-center gap-2">
+              <div class="rounded-image">
+                <img src="images/james.jpg" alt="James" />
+              </div>
+              <div>
+                <h6 class="lh-1 fw-semibold">JAMES SMITH</h6>
+                <p class="lh-1 fs-6 text-secondary">Community Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Swiper Pagination  -->
+      <div class="swiper-pagination"></div>
+      <!-- For Unique Navigation Button  -->
+      <div class="swiper-button-prev-unique d-inline">
+        <button>
+          <i class="bi bi-chevron-left"></i>
+        </button>
+      </div>
+      <div class="swiper-button-next-unique">
+        <button>
+          <i class="bi bi-chevron-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS Library -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Swiper CDN  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+
+        breakpoints: {
+          822: {
+            slidesPerView: 2,
+            spaceBetween: 80,
+          },
+          1187: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        },
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          // dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next-unique",
+          prevEl: ".swiper-button-prev-unique",
+        },
+      });
+    </script>
+  </body>
+</html>

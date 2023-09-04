@@ -1,0 +1,121 @@
+/* Google Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* Bootstrap icons CDN  */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+body {
+  background: #00a4e3;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom CSS Style for Swiper Slides  */
+.testimonial {
+  margin: 100px;
+  position: relative;
+}
+.swiper {
+  max-width: 1200px;
+  height: 442px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0 20px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev-unique > button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: -5%;
+  z-index: 999;
+}
+
+.swiper-button-next-unique > button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  right: -5%;
+  z-index: 999;
+}
+
+/* swiper-pagination Style  */
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, 8px);
+  top: var(--swiper-pagination-top, auto);
+  bottom: -10%;
+  left: 0;
+  width: 100%;
+}
+
+/* .swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
+} */
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: transparent;
+  border: 2px solid #ccedf9;
+}
+
+.swiper-pagination-bullet {
+  width: var(
+    --swiper-pagination-bullet-width,
+    var(--swiper-pagination-bullet-size, 10px)
+  );
+  height: var(
+    --swiper-pagination-bullet-height,
+    var(--swiper-pagination-bullet-size, 10px)
+  );
+
+  display: inline-block;
+  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+  background: var(--swiper-pagination-bullet-inactive-color, #ccedf9);
+  opacity: var(--swiper-pagination-bullet-inactive-opacity);
+}
+
+.swiper-pagination-bullet:hover {
+  background: transparent;
+  border: 2px solid #ccedf9;
+  transition: all 0.3s ease;
+}
